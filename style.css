@@ -45,10 +45,10 @@ header {
 .header-image {
   display: inline-block;   /* keeps it centered */
   max-width: 100%;         /* responsive scaling */
-  height: auto;            /* keeps aspect ratio */
+  /* height: auto;            /* keeps aspect ratio */
   /* You can set custom size here, e.g.: */
   /* width: 1200px; */
-  /* height: 300px; */
+  height: 200px; */
   object-fit: cover;
 }
 
