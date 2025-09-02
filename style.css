@@ -44,7 +44,7 @@ header {
 
 .header-image {
   display: inline-block;   /* keeps it centered */
-  max-width: 100px;         /* responsive scaling */
+  max-width: 100%;         /* responsive scaling */
   height: auto;            /* keeps natural aspect ratio */
   max-height: 100px;       /* NEW: limits the height */
   object-fit: cover;       /* crops if the natural height is bigger */
