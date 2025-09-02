@@ -37,14 +37,19 @@ a:hover {
 /* Header Image */
 header {
   width: 100%;
-  overflow: hidden;
+  text-align: center; /* centers the image */
+  margin: 0 auto;
+  padding: 0;
 }
 
 .header-image {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover; /* ensures it scales proportionally */
+  display: inline-block;   /* keeps it centered */
+  max-width: 100%;         /* responsive scaling */
+  height: auto;            /* keeps aspect ratio */
+  /* You can set custom size here, e.g.: */
+  /* width: 1200px; */
+  /* height: 300px; */
+  object-fit: cover;
 }
 
 /* Navbar */
