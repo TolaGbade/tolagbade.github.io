@@ -34,6 +34,19 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Header Image */
+header {
+  width: 100%;
+  overflow: hidden;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover; /* ensures it scales proportionally */
+}
+
 /* Navbar */
 nav {
   background-color: #f5f5f5;
@@ -96,11 +109,11 @@ nav a {
   border-radius: 5px;
 }
 
-.fields, .references {
+.fields, .references, .education {
   margin-bottom: 20px;
 }
 
-.fields h2, .references h2, .jmp-section h2 {
+.fields h2, .references h2, .education h2, .jmp-section h2 {
   font-size: 20px;
   border-bottom: 2px solid #eee;
   margin-bottom: 10px;
